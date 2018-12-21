@@ -65,14 +65,15 @@ function format(Array $arr) {
 
 // The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and equal to 953.
 // This statement seems to be wrong.
-/* < add "/" to the beginning of this line
+//* < add "/" to the beginning of this line
   // contains 21 terms
   echo '<pre>';
-  $res = getPrimes(79);
+  $res = getPrimes(73);
   print_r($res);
+  echo 'count: ' . count($res);
   // but sum is: 791
   $sum = array_sum($res);
-  echo $sum;
+  echo "\n" . $sum;
   // but 791 is not prime
   echo isPrime($sum) ? ' is prime' : ' is not prime';
   echo '</pre>';
